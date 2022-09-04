@@ -1,8 +1,16 @@
 Resources resources:
+- [ ] Namespace
 Deploying workloads
-- [] Namespace
-- []
-- []
-- []
-- []
-- []
+- [ ] Pod
+- [ ] ReplicaSet
+- [ ] ReplicationController
+- [ ] Job
+- [ ] CronJob
+- [ ] DaemonSet 
+- [ ] StatefulSet
+- [ ] Deployment
+Services
+- [ ]
+- [ ]
+- [ ]
+
