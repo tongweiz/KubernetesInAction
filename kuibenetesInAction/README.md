@@ -1,5 +1,6 @@
 Resources resources:
 - [ ] Namespace
+
 Deploying workloads
 - [ ] Pod
 - [ ] ReplicaSet
@@ -9,8 +10,17 @@ Deploying workloads
 - [ ] DaemonSet 
 - [ ] StatefulSet
 - [ ] Deployment
-Services
-- [ ]
-- [ ]
-- [ ]
 
+Services
+- [ ] Service
+- [ ] Endpoints
+- [ ] Ingress
+
+Config
+- [ ] ConfigMap
+- [ ] Secret
+
+Storage
+- [ ] PersistentVolume
+- [ ] PersistentVolumeClaim
+- [ ] StorageClass
