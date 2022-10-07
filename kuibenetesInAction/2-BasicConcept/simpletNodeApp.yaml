@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: tongwei
+spec:
+  replicas: 1
+  selector:
+    app: tongwei
+  template:
+    metadata:
+      name: tongwei
+      labels:
+        app: tongwei
+    spec:
+      containers:
+      - name: tongwei
+        image: tongweidocker/k8sinaction:1.0
+        ports:
+        - containerPort: 8080
