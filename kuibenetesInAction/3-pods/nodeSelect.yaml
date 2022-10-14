@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tongwei-nodelabel
+spec:
+  nodeSelector:
+    tongwei: test
+  containers:
+  - name: tongwei
+    image: tongweidocker/k8sinaction:1.0
+    ports:
+      - containerPort: 8080

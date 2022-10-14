@@ -1,3 +1,15 @@
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: tongwei
+# spec:
+#   containers:
+#   - name: tongwei
+#     image: tongweidocker/k8sinaction:1.0
+#     ports:
+#     - containerPort: 8080
+
+
 apiVersion: v1
 kind: ReplicationController
 metadata:
