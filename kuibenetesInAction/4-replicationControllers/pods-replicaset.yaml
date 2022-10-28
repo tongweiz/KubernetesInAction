@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: tongwei
+  labels:
+    app: tongwei
+spec:
+  replicas: 3
+  selector:
+    matchExpressions:
+      - key: app
+        operator: In
+        values:
+          - tongwei
+  template:
+    metadata:
+      labels:
+        app: tongwei
+    spec:
+      containers:
+        - name: tongwei
+          image: tongweidocker/k8sinaction:1.0
+          ports:
+            - containerPort: 8080
