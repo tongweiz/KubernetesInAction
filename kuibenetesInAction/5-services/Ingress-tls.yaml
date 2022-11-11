@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tongwei
+spec:
+  tls:
+  - hosts:
+    - tongwei.example.com
+    secretName: tls-secret
+  rules:
+  - host: tongwei.example.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: tongwei-nodeport
+            port: 
+              number: 80
