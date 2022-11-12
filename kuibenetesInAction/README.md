@@ -1,20 +1,20 @@
 Resources resources:
-- [ ] Namespace
+- [x] Namespace
 
 Deploying workloads
-- [ ] Pod
-- [ ] ReplicaSet
-- [ ] ReplicationController
-- [ ] Job
-- [ ] CronJob
-- [ ] DaemonSet 
+- [x] Pod
+- [x] ReplicaSet
+- [x] ReplicationController
+- [x] Job
+- [x] CronJob
+- [X] DaemonSet 
 - [ ] StatefulSet
 - [ ] Deployment
 
 Services
-- [ ] Service
-- [ ] Endpoints
-- [ ] Ingress
+- [x] Service
+- [x] Endpoints
+- [x] Ingress
 
 Config
 - [ ] ConfigMap
