@@ -21,6 +21,6 @@ Config
 - [ ] Secret
 
 Storage
-- [ ] PersistentVolume
-- [ ] PersistentVolumeClaim
-- [ ] StorageClass
+- [x] PersistentVolume
+- [x] PersistentVolumeClaim
+- [x] StorageClass
