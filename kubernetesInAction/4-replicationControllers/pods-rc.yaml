@@ -11,8 +11,11 @@ spec:
       labels:
         app: tongwei
     spec:
+      imagePullSecrets:
+        - name: regcred
       containers:
         - name: tongwei
           image: tongweidocker/k8sinaction:1.0
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
